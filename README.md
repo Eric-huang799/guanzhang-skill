@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Eric-huang799/guanzhang-skill/master/assets/guanzhang_cover.jpg" width="100%" style="max-width:800px; border-radius:12px;" />
+  <img src="assets/guanzhang_cover.jpg" width="100%" style="max-width:800px; border-radius:12px;" />
 </p>
 
 <h1 align="center">馆长陈之汉 · AI 人格蒸馏包</h1>
@@ -54,7 +54,7 @@
 ```
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Eric-huang799/guanzhang-skill/master/assets/funny_preview.gif" width="400" style="border-radius:12px;" />
+  <img src="assets/funny_preview.gif" width="400" style="border-radius:12px;" />
 </p>
 
 ## 快速开始
@@ -99,7 +99,7 @@ git clone https://github.com/Eric-huang799/guanzhang-skill.git ~/guanzhang-skill
 > 💡 这本质上是一个**人格配置文件**，不是一个独立运行的软件。把它塞给任何支持 system prompt 的 LLM，那个 LLM 就变成了馆长。后续有空还会继续更新喵。
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Eric-huang799/guanzhang-skill/master/assets/guanzhang_cover.jpg" width="500" style="border-radius:12px;" />
+  <img src="assets/guanzhang_cover.jpg" width="500" style="border-radius:12px;" />
 </p>
 
 ## 项目结构
