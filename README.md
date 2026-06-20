@@ -63,6 +63,41 @@
 
 推荐基座：**Qwen2.5-7B-Instruct**。
 
+## 怎么用
+
+### 配合 Claude Code
+
+把 skill 装到 Claude Code 里，一句话切换人格：
+
+```bash
+# 1. 克隆仓库
+git clone https://github.com/Eric-huang799/guanzhang-skill.git ~/guanzhang-skill
+
+# 2. 在 CLAUDE.md 中添加切换规则
+# 说 "馆长一下" 切馆长，说 "切回来" 恢复
+```
+
+然后跟 Claude 说 **「馆长一下」**，AI 助手立刻变成馆长语气——自称林北、句尾带「对不对」、嘴臭但有理，陪你聊天解闷、写代码骂bug、甚至帮你怼人。
+
+### 配合其他 AI 工具
+
+| 平台 | 用法 |
+|------|------|
+| **OpenAI / API** | `persona.md` 内容放入 `system` 消息 |
+| **Dify / Coze** | 导入为知识库 + system prompt |
+| **OpenClaw** | 放到 `~/.openclaw/skills/guanzhang/` 目录 |
+| **Ollama** | 配合 Qwen2.5 加载，Modelfile 中设置 SYSTEM |
+| **任意聊天客户端** | 把 persona.md 粘贴到「自定义指令/人设」栏 |
+
+### 实际场景
+
+- 💬 **聊天陪伴**：一个人写代码太闷？切馆长模式，林北陪你唠嗑
+- 🎮 **直播互动**：配合虚拟主播软件，馆长 AI 自动接梗
+- 📝 **内容创作**：用馆长语气写文案、标题、短视频脚本
+- 🔧 **Debug 解压**：代码报错时让馆长帮你骂 bug——「靠北喔这什么破error！」
+
+> 💡 这本质上是一个**人格配置文件**，不是一个独立运行的软件。把它塞给任何支持 system prompt 的 LLM，那个 LLM 就变成了馆长。
+
 <p align="center">
   <img src="assets/guanzhang_cover.jpg" width="500" style="border-radius:12px;" />
 </p>
