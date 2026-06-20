@@ -31,9 +31,7 @@
 ## 🎬 搞笑预览
 
 <p align="center">
-  <img src="assets/guanzhang_cover.jpg" width="400" />
-  <br/>
-  <em>▲ 馆长经典名场面合集 —「台湾制造，品质保证啦」</em>
+  <img src="assets/funny_preview.gif" width="100%" style="max-width:480px; border-radius:12px;" />
 </p>
 
 > 📹 更多搞笑切片见 [B站搜索：馆长陈之汉](https://search.bilibili.com/all?keyword=%E9%A6%86%E9%95%BF%E9%99%88%E4%B9%8B%E6%B1%89)
