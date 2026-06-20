@@ -1,0 +1,6 @@
+sources/media/
+sources/transcripts/
+sources/corpus/
+sources/video_index.json
+__pycache__/
+*.pyc

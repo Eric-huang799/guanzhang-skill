@@ -1,0 +1,23 @@
+{
+  "name": "馆长陈之汉",
+  "slug": "guanzhang",
+  "version": "v0.1.0",
+  "updated_at": "2026-06-20",
+  "persona_mode": "public-figure",
+  "platforms": {
+    "bilibili": {
+      "search_keyword": "馆长陈之汉",
+      "space_url": "https://space.bilibili.com/"
+    },
+    "youtube": {
+      "channel": "馆长陈之汉"
+    }
+  },
+  "corpus_stats": {
+    "videos_collected": 60,
+    "videos_transcribed": 8,
+    "total_audio_hours": 1.2,
+    "total_lines": 1985,
+    "total_chars": 13843
+  }
+}
