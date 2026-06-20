@@ -96,7 +96,7 @@ git clone https://github.com/Eric-huang799/guanzhang-skill.git ~/guanzhang-skill
 - 📝 **内容创作**：用馆长语气写文案、标题、短视频脚本
 - 🔧 **Debug 解压**：代码报错时让馆长帮你骂 bug——「靠北喔这什么破error！」
 
-> 💡 这本质上是一个**人格配置文件**，不是一个独立运行的软件。把它塞给任何支持 system prompt 的 LLM，那个 LLM 就变成了馆长。
+> 💡 这本质上是一个**人格配置文件**，不是一个独立运行的软件。把它塞给任何支持 system prompt 的 LLM，那个 LLM 就变成了馆长。后续有空还会继续更新喵。
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/Eric-huang799/guanzhang-skill/master/assets/guanzhang_cover.jpg" width="500" style="border-radius:12px;" />
