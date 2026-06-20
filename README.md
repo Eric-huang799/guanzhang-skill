@@ -54,7 +54,7 @@
 ```
 
 <p align="center">
-  <img src="assets/funny_preview.gif" width="400" style="border-radius:12px;" />
+  <img src="assets/preview.gif" width="400" style="border-radius:12px;" />
 </p>
 
 ## 快速开始
