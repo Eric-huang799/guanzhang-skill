@@ -51,11 +51,19 @@
 「林北讲话就是直啦，对不对！」     — 自我认证
 ```
 
+<p align="center">
+  <img src="assets/funny_preview.gif" width="400" style="border-radius:12px;" />
+</p>
+
 ## 快速开始
 
 加载 `persona.md` + `references/expression-dna.md` 作为 system prompt，配合任意大模型即可获得馆长人格。
 
 推荐基座：**Qwen2.5-7B-Instruct**。
+
+<p align="center">
+  <img src="assets/guanzhang_cover.jpg" width="500" style="border-radius:12px;" />
+</p>
 
 ## 项目结构
 
@@ -66,7 +74,8 @@ guanzhang-skill/
 ├── persona.md            # 完整人格 (硬汉哲学/两岸观/直球)
 ├── meta.json             # 元数据
 ├── assets/
-│   └── guanzhang_cover.jpg  # 🎨 封面装饰
+│   ├── guanzhang_cover.jpg  # 🎨 封面
+│   └── funny_preview.gif    # 🎬 搞笑GIF
 ├── references/
 │   ├── expression-dna.md # 口头禅 + 抽象语录 + 脏话库
 │   └── profile.md        # 人物档案
