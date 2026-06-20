@@ -1,11 +1,42 @@
-# 馆长陈之汉.skill
+<p align="center">
+  <img src="assets/guanzhang_cover.jpg" width="100%" style="max-width:800px; border-radius:12px;" />
+</p>
 
-<img src="assets/guanzhang_cover.jpg" width="200" align="right" />
+<h1 align="center">馆长陈之汉 · AI 人格蒸馏包</h1>
 
-> 我是男人！我有两颗睾丸！ —— 馆长
+<p align="center">
+  <b>我是男人！我有两颗睾丸！</b> —— 馆长
+</p>
 
-台湾最硬网红 — 馆长（陈之汉）的 AI 人格蒸馏包。
-基于 B站 25+ 支精华影片转录的 6.3 万字语料，提炼完整表达 DNA。
+<p align="center">
+  <a href="#标志语录"><img src="https://img.shields.io/badge/语录-5条-red" /></a>
+  <a href="#抽象语录"><img src="https://img.shields.io/badge/抽象梗-8个-orange" /></a>
+  <a href="#语料规模"><img src="https://img.shields.io/badge/语料-6.3万字-blue" /></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-green" /></a>
+</p>
+
+---
+
+## 这是什么
+
+台湾最硬网红 — **馆长（陈之汉）** 的 AI 人格蒸馏包。
+
+基于 B站 25+ 支精华影片转录的 **6.3 万字**语料，提炼出完整的表达 DNA：
+
+- 🏋️ 硬汉哲学：凡事讲「硬不硬」
+- 🎯 直球对决：不绕弯、不政治正确  
+- 🇨🇳 两岸统一立场（2025 后）
+- 🗣️ 台语+国语混用，脏话适度
+
+## 🎬 搞笑预览
+
+<p align="center">
+  <img src="assets/guanzhang_cover.jpg" width="400" />
+  <br/>
+  <em>▲ 馆长经典名场面合集 —「台湾制造，品质保证啦」</em>
+</p>
+
+> 📹 更多搞笑切片见 [B站搜索：馆长陈之汉](https://search.bilibili.com/all?keyword=%E9%A6%86%E9%95%BF%E9%99%88%E4%B9%8B%E6%B1%89)
 
 ## 标志语录
 
@@ -26,25 +57,28 @@
 「你在干什么？你在那边弄什么东西？」 — 直播接话万能句
 「台湾制造，品质保证啦」          — 自嘲梗
 「那个什么...就那个啊！」        — 装傻接地气
+「靠北喔，我是男人欸！」          — 硬汉撒娇
+「林北讲话就是直啦，对不对！」     — 自我认证
 ```
 
 ## 快速开始
 
-加载 `persona.md` + `references/expression-dna.md` 作为 system prompt，配合任意大模型即可。
+加载 `persona.md` + `references/expression-dna.md` 作为 system prompt，配合任意大模型即可获得馆长人格。
 
 推荐基座：**Qwen2.5-7B-Instruct**。
 
-## 结构
+## 项目结构
 
 ```
 guanzhang-skill/
+├── README.md
 ├── SKILL.md              # 切换规则
 ├── persona.md            # 完整人格 (硬汉哲学/两岸观/直球)
 ├── meta.json             # 元数据
 ├── assets/
-│   └── guanzhang_cover.jpg
+│   └── guanzhang_cover.jpg  # 🎨 封面装饰
 ├── references/
-│   ├── expression-dna.md # 口头禅 + 8条抽象语录 + 脏话库
+│   ├── expression-dna.md # 口头禅 + 抽象语录 + 脏话库
 │   └── profile.md        # 人物档案
 └── tools/                # 采集工具链 (6个脚本)
 ```
@@ -57,14 +91,6 @@ guanzhang-skill/
 | 已转录 | 26 支 |
 | 总语料 | 9,123 行 / 63,778 字 |
 | 音频时长 | 约 5 小时 |
-
-## 人格特征
-
-- 自称「林北」，句尾「啦」「齁」「对不对」
-- 硬汉哲学：凡事讲硬不硬
-- 直球对决：先飙脏话再讲道理
-- 台语+国语混用
-- 两岸统一立场（2025后）
 
 ## 许可
 
