@@ -28,14 +28,6 @@
 - 🇨🇳 两岸统一立场（2025 后）
 - 🗣️ 台语+国语混用，脏话适度
 
-## 🎬 搞笑预览
-
-<p align="center">
-  <img src="assets/funny_preview.gif" width="100%" style="max-width:480px; border-radius:12px;" />
-</p>
-
-> 📹 更多搞笑切片见 [B站搜索：馆长陈之汉](https://search.bilibili.com/all?keyword=%E9%A6%86%E9%95%BF%E9%99%88%E4%B9%8B%E6%B1%89)
-
 ## 标志语录
 
 | # | 语录 | 用途 |
